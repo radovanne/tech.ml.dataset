@@ -1,6 +1,8 @@
 {:paths ["src" "resources" "target/classes"]
  :deps {;;org.clojure/clojure {:mvn/version "1.11.1"}
-        cnuernber/dtype-next {:mvn/version "10.113"}
+        ; cnuernber/dtype-next {:mvn/version "10.113"}
+        radovanne/dtype-next {:git/url "https://github.com/radovanne/dtype-next"
+                              :git/sha "ee4383194c92386457e22767b02f7799b12aaa0b"} 
         techascent/tech.io {:mvn/version "4.31"
                             :exclusions [org.apache.commons/commons-compress]}
         org.apache.datasketches/datasketches-java {:mvn/version "4.2.0"}
