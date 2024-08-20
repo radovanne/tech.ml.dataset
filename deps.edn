@@ -2,7 +2,7 @@
  :deps {;;org.clojure/clojure {:mvn/version "1.11.1"}
         ; cnuernber/dtype-next {:mvn/version "10.113"}
         radovanne/dtype-next {:git/url "https://github.com/radovanne/dtype-next"
-                              :git/sha "ee4383194c92386457e22767b02f7799b12aaa0b"} 
+                              :git/sha "a1377eb6356bc80ff40635c9b9b5187632f3ff66"} 
         techascent/tech.io {:mvn/version "4.31"
                             :exclusions [org.apache.commons/commons-compress]}
         org.apache.datasketches/datasketches-java {:mvn/version "4.2.0"}
